@@ -23,11 +23,30 @@
       font-size: 6em;
     }
     p {
-        font-weight: $b;
-        font-family: $ro;
-        font-size: 2em;
-        margin-top: 0;
-        color: #fff;
+      font-weight: $b;
+      font-family: $ro;
+      font-size: 2em;
+      margin-top: 0;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  ._hero {
+    &_child {
+      width: $per;
+      display: $f;
+      justify-content: $c;
+      align-items: $c;
+      flex-direction: $cl;
+      text-align: $c;
+      h1 {
+        font-size: 3em;
+      }
+      p {
+        font-size: 1.4em;
+      }
     }
   }
 }
