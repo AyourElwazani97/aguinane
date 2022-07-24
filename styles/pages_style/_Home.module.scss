@@ -8,6 +8,8 @@
   display: $f;
   justify-content: $c;
   align-items: $c;
+  visibility: $h;
+
   &_child {
     width: 80%;
     display: $f;
