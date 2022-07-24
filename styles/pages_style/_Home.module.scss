@@ -43,6 +43,9 @@
       text-align: $c;
       h1 {
         font-size: 3em;
+        span {
+          display: $n;
+        }
       }
       p {
         font-size: 1.4em;

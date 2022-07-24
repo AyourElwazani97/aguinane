@@ -38,7 +38,7 @@ export default function Home({ styles }) {
       <div ref={hero} className={styles._hero}>
         <div className={styles._hero_child}>
           <div>
-            <h1 className="overflows">AGUINANE <span>-</span> ⴰⴳⵓⵉⵏⴰⵏⴻ</h1>
+            <h1 className="overflows">AGUINANE ⴰⴳⵓⵉⵏⴰⵏⴻ</h1>
           </div>
           <div>
             <p className="overflows">
