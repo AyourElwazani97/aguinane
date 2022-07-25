@@ -42,7 +42,7 @@ export default function Home({ styles }) {
           </div>
           <div>
             <p className="overflows">
-              We are sorry, Site Still Under construction...
+              We are Sorry, Site still under Constructions...
             </p>
           </div>
         </div>
