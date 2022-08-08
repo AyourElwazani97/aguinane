@@ -27,6 +27,11 @@ export default function Home({ styles }) {
       ease: Sine.easeOut,
       duration: 2,
     });
+    setInterval(() => {
+      console.log("i love aguinane")
+      const numb = Math.random() * 6;
+      console.log(numb.toFixed(0))
+    },5000)
   }, []);
   return (
     <div>
