@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Head from "next/head";
 import gsap, { Sine } from "gsap";
 import SplitText from "../utils/Split3.min";
@@ -28,10 +28,11 @@ export default function Home({ styles }) {
       duration: 2,
     });
     setInterval(() => {
-      console.log("i love aguinane")
-      const numb = Math.random() * 6;
-      console.log(numb.toFixed(0))
-    },5000)
+      const numb = Math.random() * 10;
+      const arrColors = ["red", "yellow", "#000", "violet"];
+      const bgValue = numb.toFixed(0);
+      console.log(arrColors.forEach((e) => console.log(e)));
+    }, 5000);
   }, []);
   return (
     <div>
