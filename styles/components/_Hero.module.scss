@@ -1,0 +1,69 @@
+._hero {
+  width: $per;
+  height: $vh;
+  position: $re;
+  display: $f;
+  justify-content: $c;
+  align-items: $c;
+  visibility: $h;
+  &::before {
+    content: "";
+    position: $ab;
+    background: rgba(0, 0, 0, 0.6);
+    background-position: $c;
+    background-size: $cv;
+    width: $per;
+    height: $vh;
+    z-index: 1;
+    opacity: .3;
+  }
+  video {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+  }
+  &_child {
+    width: 80%;
+    display: $f;
+    justify-content: $c;
+    align-items: $c;
+    flex-direction: $cl;
+    z-index: 1;
+    h1 {
+      font-family: $po;
+      color: #fff;
+      font-weight: $b;
+      font-size: 6em;
+      margin-bottom: 0;
+    }
+    p {
+      font-weight: $b;
+      font-family: $ro;
+      font-size: 2em;
+      margin-top: 0;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  ._hero {
+    &_child {
+      width: $per;
+      display: $f;
+      justify-content: $c;
+      align-items: $c;
+      flex-direction: $cl;
+      text-align: $c;
+      h1 {
+        font-size: 3em;
+        span {
+          display: $n;
+        }
+      }
+      p {
+        font-size: 1.4em;
+      }
+    }
+  }
+}
